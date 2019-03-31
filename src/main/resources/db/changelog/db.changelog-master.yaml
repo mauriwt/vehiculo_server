@@ -1,0 +1,10 @@
+databaseChangeLog: 
+#Seccion de YAML
+
+#Seccion de SQL
+    - include :
+       file: classpath:/db/changelog/sql/2019_03_30_db.vehiculo.sql
+       relativeToChangelogFile: false
+    - include :
+       file: classpath:/db/changelog/sql/2019-03-30_add_dato_tipo_vehicilo.sql
+       relativeToChangelogFile: false
